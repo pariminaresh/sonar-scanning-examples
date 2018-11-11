@@ -34,6 +34,8 @@ repositories {
     jcenter()
 }
 
+println "Sources: ${sonar.sources}"
+
 dependencies {
     // This dependency is found on compile classpath of this component and consumers.
     compile 'com.google.guava:guava:21.0'
@@ -44,4 +46,3 @@ dependencies {
 
 // Define the main class for the application
 mainClassName = 'App'
-
