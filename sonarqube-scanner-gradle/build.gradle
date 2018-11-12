@@ -47,10 +47,9 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 
-// sourceSets {
-//         main.java.srcDirs = ['com.drfirst.address.api']
-//         main.resources.srcDirs = ['src/resources']
-// }
+sourceSets {
+        main.java.srcDirs = ['com']
+}
 
 // Define the main class for the application
 mainClassName = 'App'
