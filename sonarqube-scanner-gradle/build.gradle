@@ -36,6 +36,7 @@ repositories {
 
 sourceSets {
         main.java.srcDirs = ['com']
+        test.java.srcDirs = ['com']
 }
 
 println "srcDirs: ${sourceSets.main.allSource.srcDirs}"
