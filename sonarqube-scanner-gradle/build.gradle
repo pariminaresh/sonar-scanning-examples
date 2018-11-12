@@ -38,10 +38,6 @@ println "srcDirs: ${sourceSets.main.allSource.srcDirs}"
 println "testDirs: ${sourceSets.test.allSource.srcDirs}"
 println "ClassDir: ${sourceSets.main.output.classesDir}"
 
-sonarqube {
- println "Sources: ${sonar.sources}"
-}
-
 dependencies {
     // This dependency is found on compile classpath of this component and consumers.
     compile 'com.google.guava:guava:21.0'
