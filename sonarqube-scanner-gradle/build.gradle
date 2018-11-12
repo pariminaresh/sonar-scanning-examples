@@ -35,7 +35,7 @@ repositories {
 }
 
 sourceSets {
-        main.java.srcDirs = ['com']
+        main.java.srcDirs = ['com/src/main/java']
         test.java.srcDirs = ['com/src/test/java']
 }
 
