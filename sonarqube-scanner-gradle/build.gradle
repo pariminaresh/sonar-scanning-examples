@@ -37,6 +37,7 @@ repositories {
 println "srcDirs: ${sourceSets.main.allSource.srcDirs}"
 println "testDirs: ${sourceSets.test.allSource.srcDirs}"
 println "ClassDir: ${sourceSets.main.output.classesDir}"
+println "Java srcDirs: ${sourceSets.main.java.srcDirs}"
 
 dependencies {
     // This dependency is found on compile classpath of this component and consumers.
@@ -45,6 +46,11 @@ dependencies {
     // Use JUnit test framework
     testCompile 'junit:junit:4.12'
 }
+
+// sourceSets {
+//         main.java.srcDirs = ['com.drfirst.address.api']
+//         main.resources.srcDirs = ['src/resources']
+// }
 
 // Define the main class for the application
 mainClassName = 'App'
